@@ -1,5 +1,6 @@
 h2{
   color: rgb(67, 9, 121);
+  background-color: rgb(206, 172, 238);
 }
 
 h1{
@@ -9,5 +10,5 @@ h1{
 
 img{
   margin-top: 0%;
-  border-radius: 50%;
+  border-radius: 100%;
 }
