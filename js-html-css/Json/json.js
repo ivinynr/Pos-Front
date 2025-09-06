@@ -13,7 +13,7 @@ aluno.idade = 30;
 aluno.notas.push(10); 
 console.log("Aluno atualizado:", aluno);
 
-let alunoString = JSON.stringify(aluno);
+let alunoString = JSON.stringify(aluno);   
 console.log("Aluno em formato JSON string:", alunoString);
 
 let alunoObjeto = JSON.parse(alunoString);
