@@ -1,0 +1,20 @@
+<div>
+    <div style="margin-bottom: 52px;">
+        <h1 style="text-align: center;">LOGIN</h1>
+  </div>
+
+  <form [formGroup]="formGroup" (ngSubmit)="login()">
+    <div class="form-login" style="margin-bottom: 40px;">
+      <label for="username">E-mail ou Nome de Usuário</label>
+      <input type="text" id="username" formControlName="username" required>
+    </div>
+
+    <div class="form-login">
+      <label for="password">Senha</label>
+      <input type="password" id="password" formControlName="password" required>
+    </div>
+            <p class="reset_password" style="text-align: center; cursor: pointer;">Esqueci minha senha</p>
+            <button type="submit" [disabled]="formGroup.invalid">Entrar</button>
+        </form>
+    </div>  
+

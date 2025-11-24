@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  background-image: url("/assets/fundo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.form {
+  background-color: rgba(0, 0, 0, 0.5); 
+  width: 50%;
+  height: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.logo {
+  display: block;
+  margin: 80px auto 0;
+  
+  img {
+    width: 150px;
+  }
+}
+
+.login-form {
+  margin: 120px auto 0;
+  max-width: 300px;
+}

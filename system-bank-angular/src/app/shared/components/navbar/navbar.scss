@@ -1,0 +1,14 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.navbar {
+  background-color: rgb(24, 4, 24); /* Cor de fundo personalizada */
+  color: white; /* Cor do texto personalizada */
+}
+::ng-deep .navbar button.mat-button {
+  color: white;
+}
+
+::ng-deep .navbar span {
+  color: white;
+}
