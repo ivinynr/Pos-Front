@@ -12,3 +12,13 @@
 ::ng-deep .navbar span {
   color: white;
 }
+.logout-btn {
+  background-color: #c62828 !important; /* vermelho forte */
+  color: white !important;
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+
+.logout-btn:hover {
+  background-color: #b71c1c !important;
+}

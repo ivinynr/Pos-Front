@@ -19,7 +19,7 @@ export class AuthService {
         next: (response: any) => {   
           localStorage.setItem('access_token', response.access);
           localStorage.setItem('refresh_token', response.refresh);
-          this.router.navigate(['/']);
+          this.router.navigate(['/cliente']);
         },
         error: (error) => {
           console.error('Login error', error);
